@@ -1,0 +1,5 @@
+/* Create a list and change its list-style-type */
+
+.custom-list {
+    list-style-type: square;
+}

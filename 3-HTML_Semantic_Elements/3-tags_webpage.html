@@ -1,0 +1,80 @@
+<!-- Use all the HTML5 tags and develop a web page
+article, aside, figcaption, figure,footer,header, hgroup,mark,nav, section,time -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Semantic Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        header, nav, section, article, aside, footer {
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        figure {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <hgroup>
+            <h1>Welcome to My Website</h1>
+            <h2>Your source for the latest news</h2>
+        </hgroup>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Articles</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Latest News</h2>
+        <article>
+            <h3>Breaking News: HTML5 is Awesome!</h3>
+            <p>Published on <time datetime="2025-03-07">March 7, 2025</time></p>
+            <p>HTML5 provides a variety of semantic elements that improve readability and SEO.</p>
+            <p>Highlighted feature: <mark>HTML5 Semantic Tags</mark></p>
+        </article>
+    </section>
+
+    <aside>
+        <h2>Related Topics</h2>
+        <ul>
+            <li>HTML5 Forms</li>
+            <li>CSS3 Styling</li>
+            <li>JavaScript Interactivity</li>
+        </ul>
+    </aside>
+
+    <figure>
+        <img src="https://via.placeholder.com/300" alt="Sample Image">
+        <figcaption>A simple placeholder image</figcaption>
+    </figure>
+
+    <footer>
+        <p>© 2025 My Website | Designed with HTML5</p>
+    </footer>
+
+</body>
+</html>

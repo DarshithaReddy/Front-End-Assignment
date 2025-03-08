@@ -1,0 +1,30 @@
+<!-- Show the javascript validation. When you click submit, the text box doesn't need to be empty -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+</head>
+<body>
+    <h2>Form Validation</h2>
+    <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Enter your name">
+        <button type="submit">Submit</button>
+    </form>
+    <p id="errorMsg" style="color: red;"></p>
+
+    <script>
+        function validateForm() {
+            let name = document.getElementById("name").value;
+            if (name.trim() === "") {
+                document.getElementById("errorMsg").innerText = "Name cannot be empty!";
+                return false;
+            }
+            alert("Form submitted successfully!");
+            return true;
+        }
+    </script>
+</body>
+</html>

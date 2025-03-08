@@ -1,0 +1,8 @@
+/* Add padding and margin with different size and understand the difference between them. */
+
+.box {
+    background: lightcoral;
+    padding: 20px;
+    margin: 30px;
+    border: 2px solid black;
+}

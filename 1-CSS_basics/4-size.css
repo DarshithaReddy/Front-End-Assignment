@@ -1,0 +1,19 @@
+/* Using percentage for width */
+.box1 {
+    width: 80%;
+    height: 200px;
+    background-color: lightcoral;
+    text-align: center;
+    line-height: 200px;
+    margin: 20px auto;
+}
+
+/* Using pixels for width */
+.box2 {
+    width: 400px;
+    height: 150px;
+    background-color: lightgreen;
+    text-align: center;
+    line-height: 150px;
+    margin: 20px auto;
+}

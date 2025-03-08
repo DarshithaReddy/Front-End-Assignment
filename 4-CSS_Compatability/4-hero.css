@@ -1,0 +1,10 @@
+/* Create a hero image */
+
+.hero {
+    background-image: url('https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px;
+}

@@ -1,0 +1,30 @@
+/* Develop a page with different font-styles, font-size, font-family, colors and text-align. */
+.heading {
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: darkblue;
+    text-align: center;
+}
+
+.paragraph1 {
+    font-family: "Courier New", monospace;
+    font-size: 20px;
+    font-style: italic;
+    color: darkred;
+    text-align: left;
+}
+
+.paragraph2 {
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    color: darkgreen;
+    text-align: right;
+}
+
+.paragraph3 {
+    font-family: "Verdana", sans-serif;
+    font-size: 22px;
+    color: purple;
+    text-align: center;
+}

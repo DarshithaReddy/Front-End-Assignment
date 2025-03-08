@@ -1,0 +1,23 @@
+<!-- Write a program with FOR/IN loop-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FOR/IN Loop</title>
+</head>
+<body>
+    <h2>FOR/IN Loop Example</h2>
+    <p id="carDetails"></p>
+
+    <script>
+        let car = { brand: "Toyota", model: "Camry", year: 2022 };
+        let details = "";
+        for (let key in car) {
+            details += key + ": " + car[key] + "<br>";
+        }
+        document.getElementById("carDetails").innerHTML = details;
+    </script>
+</body>
+</html>

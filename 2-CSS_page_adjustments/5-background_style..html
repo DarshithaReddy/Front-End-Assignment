@@ -1,0 +1,47 @@
+<!-- A page with multiple background images for an webpage or element and define their adjustable sizes-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Background Images</title>
+    <style>
+        /* Applying multiple background images to the entire webpage */
+        body {
+            background-image: url('https://images.pexels.com/photos/1103970/pexels-photo-1103970.jpeg'), 
+                              url('https://images.pexels.com/photos/18105/pexels-photo.jpg');
+            background-position: top left, bottom right;
+            background-repeat: no-repeat, no-repeat;
+            background-size: 50% 50%, 30% 30%;
+        }
+
+        /* Multiple backgrounds for a specific section */
+        .multi-bg-section {
+            width: 80%;
+            height: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+            background-image: url('https://images.pexels.com/photos/414612/pexels-photo-414612.jpeg'), 
+                              url('https://images.pexels.com/photos/66997/pexels-photo-66997.jpeg');
+            background-position: center, top right;
+            background-repeat: no-repeat, no-repeat;
+            background-size: cover, contain;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align: center;">Multiple Background Images Example</h1>
+
+    <div class="multi-bg-section">
+        <p>This section has two background images with different sizes.</p>
+    </div>
+
+</body>
+</html>
+

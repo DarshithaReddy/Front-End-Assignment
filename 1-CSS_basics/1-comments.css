@@ -1,0 +1,12 @@
+/* This is a single-line comment in CSS */
+
+/* Setting the background color */
+body {
+    background-color: lightgray;
+}
+
+/* Styling the heading */
+h1 {
+    color: blue; /* Changing text color to blue */
+    text-align: center; /* Centering the text */
+}

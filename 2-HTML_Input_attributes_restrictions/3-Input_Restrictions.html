@@ -1,0 +1,37 @@
+<!-- Apply all of the below input restrictions
+disabled, max, maxlength, min, readonly, required, size, value-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Restrictions</title>
+</head>
+<body>
+
+    <h2>Input Restrictions</h2>
+    <form>
+        <label>Disabled Field: </label>
+        <input type="text" disabled value="Cannot edit"><br><br>
+
+        <label>Max Length (5 chars): </label>
+        <input type="text" maxlength="5"><br><br>
+
+        <label>Min Value (10): </label>
+        <input type="number" min="10"><br><br>
+
+        <label>Readonly Field: </label>
+        <input type="text" value="Read-only" readonly><br><br>
+
+        <label>Required Field: </label>
+        <input type="text" required><br><br>
+
+        <label>Fixed Size Input (Size 10): </label>
+        <input type="text" size="10"><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

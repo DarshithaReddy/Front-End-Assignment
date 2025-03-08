@@ -1,0 +1,24 @@
+<!-- Use strict mode in your program and understand why variable not declared causes error -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Strict Mode</title>
+</head>
+<body>
+    <h2>Strict Mode Example</h2>
+    <p id="errorMessage"></p>
+
+    <script>
+        "use strict";
+        try {
+            undeclaredVar = "This will cause an error in strict mode!";
+            document.getElementById("errorMessage").innerHTML = undeclaredVar;
+        } catch (error) {
+            document.getElementById("errorMessage").innerHTML = "Error: " + error.message;
+        }
+    </script>
+</body>
+</html>

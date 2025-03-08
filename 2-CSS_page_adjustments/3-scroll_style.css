@@ -1,0 +1,8 @@
+/* A long page which should have two links "click to go to bottom of page" and "click to go to top of page" . Also set their scroll-behavior to scroll smoothly. */
+
+html {
+    scroll-behavior: smooth;
+}
+.long-content {
+    height: 1500px;
+}

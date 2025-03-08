@@ -1,0 +1,60 @@
+/* Apply different visibility by an element (visibility: hidden, visible, collapse) and use different types of display for an element (display: none, inline, block, contents, list-item) */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    border: 2px solid black;
+    padding: 15px;
+    width: 300px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.hidden {
+    visibility: hidden;
+    background-color: #ffcccb;
+}
+.visible {
+    visibility: visible;
+    background-color: #90ee90;
+}
+.collapse {
+    visibility: collapse;
+    background-color: #add8e6;
+}
+.none {
+    display: none;
+    background-color: #ffb6c1;
+}
+.inline {
+    display: inline;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+}
+.block {
+    display: block;
+    background-color: lightcoral;
+    padding: 10px;
+    border-radius: 5px;
+}
+.contents {
+    display: contents;
+    color: #ff4500;
+    font-size: 20px;
+}
+.list-item {
+    display: list-item;
+    list-style-type: square;
+    margin-left: 20px;
+    background-color: #fdd835;
+    padding: 10px;
+    border-radius: 5px;
+}
+

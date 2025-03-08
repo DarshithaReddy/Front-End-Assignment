@@ -1,0 +1,10 @@
+/* Adding Opacity to a image */
+
+.opacity-img {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.opacity-img:hover {
+    opacity: 1;
+}

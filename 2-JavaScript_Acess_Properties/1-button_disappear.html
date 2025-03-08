@@ -1,0 +1,20 @@
+<!-- Write program using this keyword when we click on button, it should be disappear -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Disappear</title>
+</head>
+<body>
+    <h2>Click the button to make it disappear</h2>
+    <button onclick="disappear(this)">Click Me</button>
+
+    <script>
+        function disappear(button) {
+            button.style.display = "none"; // Hides the button when clicked
+        }
+    </script>
+</body>
+</html>

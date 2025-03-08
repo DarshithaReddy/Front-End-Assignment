@@ -1,0 +1,21 @@
+/* CSS shadow effects like for image box and hover a cursor */
+
+.image-box {
+    width: 160px;
+    padding: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.hover-btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hover-btn:hover {
+    background-color: darkblue;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+}

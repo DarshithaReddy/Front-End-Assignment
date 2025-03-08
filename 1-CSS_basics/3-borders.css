@@ -1,0 +1,11 @@
+/* Styling the box with different border styles */
+.box {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+    border-top: 5px solid red;      /* Solid top border */
+    border-right: 5px dashed blue;  /* Dashed right border */
+    border-bottom: 5px dotted green; /* Dotted bottom border */
+    border-left: 5px double black;  /* Double left border */
+}

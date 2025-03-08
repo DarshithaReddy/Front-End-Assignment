@@ -1,0 +1,25 @@
+<!-- Create an object "person" with properties firstname and lastname. Display these properties using 2 different ways of accessing -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Object Access</title>
+</head>
+<body>
+    <h2>Access Object Properties</h2>
+    <p id="output"></p>
+
+    <script>
+        let person = {
+            firstname: "John",
+            lastname: "Doe"
+        };
+
+        document.getElementById("output").innerHTML =
+            "Using Dot Notation: " + person.firstname + "<br>" +
+            "Using Bracket Notation: " + person['lastname'];
+    </script>
+</body>
+</html>

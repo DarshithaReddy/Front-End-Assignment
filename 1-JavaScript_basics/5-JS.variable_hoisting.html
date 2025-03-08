@@ -1,0 +1,20 @@
+<!-- Write a program with variable hoisting(initialization first then declaration) -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variable Hoisting</title>
+</head>
+<body>
+    <h2>Variable Hoisting Example</h2>
+    <p id="hoistingResult"></p>
+
+    <script>
+        hoistedVar = "I'm hoisted!";
+        document.getElementById("hoistingResult").innerHTML = hoistedVar;
+        var hoistedVar; // Hoisting allows this to work
+    </script>
+</body>
+</html>

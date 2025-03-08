@@ -1,0 +1,9 @@
+/* 2. Create a page with different background-colour of a page and set an image as the background-image of a page (image should not scroll with the rest of the page and specify the size of a background image) */
+body {
+    background-color: lightblue;
+    background-image: url('background.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
